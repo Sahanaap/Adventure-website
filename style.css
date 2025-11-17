@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+color: rgb(49, 24, 24);
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-links li.active a{
+     color: red;
+     text-decoration: underline;
+     font-weight: bold;
+  
+}
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(49, 24, 24);
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/bg1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    }
+
+.header-content{
+    margin-bottom: 150px;
+   
+    text-align: center;
+    color: whitesmoke;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    height: 4px;
+    width:  150px;
+    margin: 10px auto;
+    background-color: red;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+     padding: 8px 15px;
+     background-color: red;
+     border-radius: 30px;
+     color: whitesmoke;
+}
+
+
+@media screen and (max-width: 850px) {
+  body {
+    font-size: 14px;
+  }
+  .logo{
+    margin-bottom: 500px;
+    padding-top: 20px;
+  position: absolute;
+    top: 150px;
+    left: 120px;
+  }
+
+ header{
+    display: flex;
+    justify-items: end;
+    align-items: end;
+    margin-bottom: 400px;
+    text-align: center;
+
+ }
+ }
+
+ section{
+    height: 80%;
+    margin: 80px auto;
+   
+ }
+
+ .row{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    width: 100%;
+
+ }
+ .Events .row{
+    margin-top: 20px;
+ }
+
+
+ .row .col{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+ }
+
+ .title{
+     text-align: center;
+     font-size: 30px;
+     color: rgb(31, 21, 21);
+   
+    }
+
+h4{
+    font-size: 20px;
+    color: black;
+    font-family: bold;
+    margin: 8px auto;
+}
+p{
+    color: rgb(36, 24, 24);
+    line-height: 18px;
+}
+
+.Events .row .ctn{
+   margin-top: 25px;
+}
+
+.Explore{
+    background-image: url('img/bg2.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+
+  .explore-content{
+    padding: 80px;
+    width: 100%;
+  }
+
+  .explore-content .line{
+    margin-left: 4px;
+  }
+
+  .explore-content p{
+    color: whitesmoke;
+    line-height: 22px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+ 
+.Explore h1{
+    color: whitesmoke;
+    font-size: 30px ;
+    text-transform: uppercase;
+}
+
+.Tours .row{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.Tours .image-gallary{
+    display: flex;
+    flex-wrap: wrap;
+      align-items: center;
+    width: 100%;
+  
+}
+.Tours .image-gallary img{
+    margin: 10px;
+  
+}
+
+.Tours .con-col .line{
+    margin-left: 170px;
+}
+
+.Tours .con-col p{
+    margin: 30px auto;
+    line-height: 22px;
+}
+
+.Tours .con-col{
+    width: 40%;
+}
+
+.Tours .img-col{
+    width: 60%;
+}
+
+.Tours .con-col h1{
+    font-size: 30px;
+    color: rgb(37, 25, 25);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    margin:0;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 20px 80px;
+    background-color: rgb(53, 18, 18);
+  
+}
+.footer p{
+      color: whitesmoke;
+       padding: 20px auto;
+     
+       margin-top: 20px;
+}
+
+
